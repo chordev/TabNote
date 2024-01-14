@@ -1,0 +1,17 @@
+{
+  "name": "Tab Note",
+  "description": "Download & Load tabs as JSON files",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "128": "tab_note.png"
+  },
+  "action": {
+    "default_title": "tab_note",
+    "default_popup": "main.html"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ]
+}

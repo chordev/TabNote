@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'main_font';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/GapyeongWave.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-image: linear-gradient(to right bottom, #8C52FF, #FF914D);
+  font-family: 'main_font';
+
+  text-align: center;
+}
+
+/* Button Box */
+#button_box {
+  font-family: 'main_font';
+
+  height: 50px;
+  width: 220px;
+
+  display: flex;
+  justify-content: center;
+
+  color: white;
+}
+
+#saveLabel {
+  width: 100px;
+  height: 40px;
+
+  background: #6900E2;
+  opacity: 50%;
+  color: white;
+
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+  
+  &:active {
+    opacity: 100%;
+  }
+}
+
+#save {
+  display: none;
+}
+
+#importLabel {
+  width: 100px;
+  height: 40px;
+
+  background: #6900E2;
+  opacity: 50%;
+  color: white;
+
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+  
+  &:active {
+    opacity: 100%;
+  }
+}
+
+#import {
+  display: none;
+}
+
+/* List */
+#list {
+  width: 220px;
+
+  display: flex;
+  justify-content: center;
+}
